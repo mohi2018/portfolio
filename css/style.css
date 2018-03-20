@@ -1,0 +1,945 @@
+@import url(font-awesome.min.css);
+@import url('https://fonts.googleapis.com/css?family=Istok+Web');
+
+/*Font-awesome integration*/
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+/*Google font integration*/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body{
+    font-family: 'Istok Web', sans-serif;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #775ba3;
+    text-align: center;
+    margin: 100px 0 50px;
+}
+
+p{
+    margin: 0;
+    font-size: 20px;
+    color: #4b3f55;
+}
+
+
+
+/*Header Starts*/
+
+
+
+.navbar{
+    min-height: 75px;
+    border: none;
+    border-radius: 0;
+}
+
+.navbar-inverse{
+    background-color: #a41219;
+    border-top: 4px solid #a997c5;
+    opacity: 0.6;
+}
+
+.navbar-brand{
+    padding: 0 115px 25px 15px;
+}
+
+.navbar-nav{
+    padding-top: 12px;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover{
+    background-color: transparent;
+}
+
+
+.navbar-inverse .navbar-nav > li > a{
+    color: #ffffff;
+}
+
+.nav > li > a:focus, .nav > li > a:hover{
+    border-bottom: 2px solid #f8e1b4;
+}
+
+.navbar-nav > li > a{
+    padding-bottom: 22px;
+}
+
+
+.navbar-nav{
+    /margin-top: 12px ;
+}
+
+.navbar {
+
+    margin-bottom: 0;
+
+}
+
+
+/*Guidant Section Starts*/
+
+#guidant{
+    background-color: #ffffff;
+    padding: 60px 0 100px 0;
+    /border-bottom: 1px solid #91c5a9;
+}
+
+#guidant p{
+    font-size: 23px;
+    color: #4b3f55;
+    font-weight:bold;
+    line-height: 1.65em;
+}
+
+
+/*Postérité Section Starts*/
+
+
+#postérité{
+    background-color: #fcfcfc;
+    padding: 80px 0;
+    border: 1px solid #91c5a9;
+}
+#postérité h3 {
+    font-size: 40px;
+    color: #7e63a7;
+    margin: 80px 0 50px 0;
+}
+#postérité div p:first-child{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #4b3f55;
+    border-radius: 100%;
+    margin:0 auto 50px;
+}
+
+#postérité div i{
+    color: #4b3f55;
+    position: relative;
+    top: 11px;
+}
+
+#postérité figure{
+    position: relative;
+    right: 5px;
+    top: 60px;
+}
+
+
+#postérité div p:last-child{
+    font-size: 13px;
+    color: #4b3f55;
+    line-height: 1.7em;
+    font-weight: bold;
+}
+
+#postérité div p:last-child::first-letter{
+    font-size: 53px;
+    color: #91c5a9;
+    /float: left;
+    /margin-top: -25px;
+}
+
+
+
+/*Notre Equipe section start*/
+
+#equipe{
+    background-color: #ffffff;
+     padding: 112px 0;
+}
+
+#equipe h2{
+    margin: 0 0 50px;
+}
+
+
+.thumbnail{
+    border: none;
+}
+
+.thumbnail > img{
+    border-bottom: 3px solid #91c5a9;
+}
+
+#equipe .caption{
+    padding: 0;
+}
+
+#equipe .caption h3{
+    font-size: 15px;
+    color: #91c5a9;
+    font-weight: bold;
+    border-bottom: 4px solid #91c5a9;
+    padding: 12px 0 15px 5px;
+    margin: 0;
+}
+
+#equipe h3 > small{
+    font-size: 12px;
+    color: #91c5a9;
+    font-weight: bold;
+
+}
+
+#equipe .caption > p:nth-child(2){
+    color: #4b3f55;
+    font-size: 13px;
+    margin: 20px 0 35px;
+}
+
+
+#equipe .btn{
+    border: none;
+    border-radius: 0;
+}
+
+
+#equipe .caption p:last-child > .btn-primary{
+    background-color: #3b5998;
+}
+
+#equipe .caption p:last-child > .btn-danger{
+    background-color: #d14333;
+}
+
+
+#equipe .caption p:last-child > .btn-warning{
+    background-color: #ea4c88;
+}
+
+#equipe .caption p:last-child > .btn-info{
+    background-color: #00aced;
+}
+
+#equipe .caption p:last-child > .btn-success{
+    background-color: #c70c0c;
+}
+
+
+
+
+
+
+/*Our Features Section Starts*/
+
+
+
+
+@import url(font-awesome.min.css);
+@import url('https://fonts.googleapis.com/css?family=Istok+Web');
+
+
+
+body{
+    font-family: 'Istok Web', sans-serif;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #775ba3;
+    text-align: center;
+    margin: 100px 0 50px;
+}
+
+p{
+    margin: 0;
+    font-size: 20px;
+    color: #4b3f55;
+}
+
+
+
+/*Header Starts*/
+
+
+
+.navbar{
+    min-height: 75px;
+    border: none;
+    border-radius: 0;
+}
+
+.navbar-inverse{
+    background-color: #9b7ea4;
+    border-top: 4px solid #a997c5;
+    opacity: 0.6;
+}
+
+.navbar-brand{
+    padding: 0 115px 25px 15px;
+}
+
+.navbar-nav{
+    padding-top: 12px;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover{
+    background-color: transparent;
+}
+
+
+.navbar-inverse .navbar-nav > li > a{
+    color: #ffffff;
+}
+
+.nav > li > a:focus, .nav > li > a:hover{
+    border-bottom: 2px solid #f8e1b4;
+}
+
+.navbar-nav > li > a{
+    padding-bottom: 22px;
+}
+
+
+.navbar-nav{
+/margin-top: 12px ;
+}
+
+.navbar {
+
+    margin-bottom: 0;
+
+}
+
+
+/*Guidant Section Starts*/
+
+#guidant{
+    background-color: #ffffff;
+    padding: 60px 0 100px 0;
+/border-bottom: 1px solid #91c5a9;
+}
+
+#guidant p{
+    font-size: 23px;
+    color: #4b3f55;
+    font-weight:bold;
+    line-height: 1.65em;
+}
+
+
+/*Postérité Section Starts*/
+
+
+#postérité{
+    background-color: #fcfcfc;
+    padding: 80px 0;
+    border: 1px solid #91c5a9;
+}
+#postérité h3 {
+    font-size: 40px;
+    color: #7e63a7;
+    margin: 80px 0 50px 0;
+}
+#postérité div p:first-child{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #4b3f55;
+    border-radius: 100%;
+    margin:0 auto 50px;
+}
+
+#postérité div i{
+    color: #4b3f55;
+    position: relative;
+    top: 11px;
+}
+
+#postérité figure{
+    position: relative;
+    right: 5px;
+    top: 60px;
+}
+
+
+#postérité div p:last-child{
+    font-size: 13px;
+    color: #4b3f55;
+    line-height: 1.7em;
+    font-weight: bold;
+}
+
+#postérité div p:last-child::first-letter{
+    font-size: 53px;
+    color: #91c5a9;
+/float: left;
+/margin-top: -25px;
+}
+
+
+
+/*Notre Equipe section start*/
+
+#equipe{
+    background-color: #ffffff;
+    padding: 112px 0;
+}
+
+#equipe h2{
+    margin: 0 0 50px;
+}
+
+
+.thumbnail{
+    border: none;
+}
+
+.thumbnail > img{
+    border-bottom: 3px solid #91c5a9;
+}
+
+#equipe .caption{
+    padding: 0;
+}
+
+#equipe .caption h3{
+    font-size: 15px;
+    color: #91c5a9;
+    font-weight: bold;
+    border-bottom: 4px solid #91c5a9;
+    padding: 12px 0 15px 5px;
+    margin: 0;
+}
+
+#equipe h3 > small{
+    font-size: 12px;
+    color: #91c5a9;
+    font-weight: bold;
+
+}
+
+#equipe .caption > p:nth-child(2){
+    color: #4b3f55;
+    font-size: 13px;
+    margin: 20px 0 35px;
+}
+
+
+#equipe .btn{
+    border: none;
+    border-radius: 0;
+}
+
+
+#equipe .caption p:last-child > .btn-primary{
+    background-color: #3b5998;
+}
+
+#equipe .caption p:last-child > .btn-danger{
+    background-color: #d14333;
+}
+
+
+#equipe .caption p:last-child > .btn-warning{
+    background-color: #ea4c88;
+}
+
+#equipe .caption p:last-child > .btn-info{
+    background-color: #00aced;
+}
+
+#equipe .caption p:last-child > .btn-success{
+    background-color: #c70c0c;
+}
+/*about start*/
+#owner{
+    padding: 30px;
+    background-color: gainsboro;
+}
+#owner .container .aboutme h2 {
+    text-transform: uppercase;
+    font-size: 28px;
+    color: goldenrod;
+}
+#owner .container .myabout{
+    color: blue;
+    font-style: italic;
+    font-weight: bold;
+}
+#owner .container .aboutme figure img{
+    float: left;
+    margin-right: 22px;
+}
+
+
+/*contact style start*/
+#contact{
+    background-color:#f1f1f1;
+    font-family: 'Roboto', sans-serif;
+}
+
+#contact .well{
+    margin-top:30px;
+    border-radius:0;
+}
+
+#contact .form-control{
+    border-radius: 0;
+    border:2px solid #1e1e1e;
+}
+
+#contact button{
+    border-radius:0;
+    border:2px solid #1e1e1e;
+}
+
+#contact .row{
+    margin-bottom:30px;
+}
+
+@media (max-width: 768px) {
+    #contact iframe {
+        margin-bottom: 15px;
+    }
+
+}
+
+/*foooter style start*/
+
+.bg-lightgray
+{
+    background-color:LightGray;
+}
+
+/*Our Features Section Starts*/
+
+
+
+#ourFeatures{
+    background-color: #775ba3;
+    padding: 100px 0 ;
+    color: #ffffff;
+}
+#ourFeatures  p{
+    color: #ffffff;
+}
+
+
+#ourFeatures h3{
+    color: #ffffff;
+    font-size: 40px;
+    font-weight:bold ;
+    margin-bottom: 80px;
+}
+
+#ourFeatures h4{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+
+
+
+#ourFeatures h4 > p{
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+#ourFeatures .serviceTwo{
+    margin-top: 60px;
+}
+
+#ourFeatures .row > div > p:nth-child(2){
+    line-height: 1.7em;
+    padding-right: 40px;
+    margin-bottom: 50px;
+}
+
+#ourFeatures .row > div > p:last-child > a{
+    background-color: #775ba3;
+    border: 4px solid #ffffff;
+    border-radius: 0;
+    padding: 15px 60px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+#ourFeatures .customize{
+    padding-left: 50px;
+}
+
+/*Testimonial Starts*/
+
+
+#testimonial {
+    background-color: #ebebeb;
+    padding: 100px 0 ;
+}
+
+#testimonial .fa-heart {
+    color: red;
+    font-size: 25px;
+}
+#testimonial h3{
+    color: #775ba3;
+    font-size: 40px;
+    margin-bottom: 80px;
+}
+
+#testimonial .glyphicon-heart{
+    color: #ff1717;
+    top: 6px;
+    font-size: 38px;
+}
+
+#quote-carousel
+{
+    padding: 0 10px 30px 10px;
+    margin-top: 30px;
+}
+
+/* Control buttons  */
+#quote-carousel .carousel-control
+{
+    background: none;
+    color: #222;
+    font-size: 2.3em;
+    text-shadow: none;
+    margin-top: 30px;
+}
+/* Previous button  */
+#quote-carousel .carousel-control.left img
+{
+    position: relative;
+    left: 212px;
+    bottom: 40px;
+
+}
+/* Next button  */
+#quote-carousel .carousel-control.right img
+{
+    position: relative;
+    left: 30px;
+    top: 130px;
+}
+/* Changes the position of the indicators */
+#quote-carousel .carousel-indicators
+{
+    right: 50%;
+    top: auto;
+    bottom: 0;
+    margin-right: -19px;
+}
+/* Changes the color of the indicators */
+#quote-carousel .carousel-indicators li
+{
+    border: 3px solid #91c5a9;
+}
+#quote-carousel .carousel-indicators .active
+{
+    background-color: #91c5a9;
+}
+#quote-carousel blockquote img:first-child
+{
+    width: 168px;
+    height: 168px;
+    padding: 7px;
+    border: 4px solid #91c5a9;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+#quote-carousel blockquote img:last-child{
+    position: relative;
+    right: 12px;
+    bottom: 23px;
+}
+
+/* End carousel */
+
+.item blockquote {
+    border-left: none;
+    margin: 0;
+}
+
+.item blockquote .row > div:first-child{
+    padding-right: 0;
+}
+
+.item blockquote .row > div:last-child{
+    padding-left: 0;
+}
+
+.item blockquote img {
+    margin-bottom: 10px;
+}
+
+.item blockquote p{
+    color: #4b3f55;
+    font-size: 27px;
+    line-height: 1.8em;
+    margin-top: 20px;
+}
+
+.item blockquote small{
+    color: #7e63a8;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/*portfolio starts*/
+
+/* ---- button ---- */
+
+.button {
+    display: inline-block;
+    padding: 0.5em 1.0em;
+    background: #EEE;
+    border: none;
+    border-radius: 7px;
+    background-image: linear-gradient( to bottom, hsla(0, 0%, 0%, 0), hsla(0, 0%, 0%, 0.2) );
+    color: #222;
+    font-family: sans-serif;
+    font-size: 16px;
+    text-shadow: 0 1px white;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #8CF;
+    text-shadow: 0 1px hsla(0, 0%, 100%, 0.5);
+    color: #222;
+}
+
+.button:active,
+.button.is-checked {
+    background-color: #28F;
+}
+
+.button.is-checked {
+    color: white;
+    text-shadow: 0 -1px hsla(0, 0%, 0%, 0.8);
+}
+
+.button:active {
+    box-shadow: inset 0 1px 10px hsla(0, 0%, 0%, 0.8);
+}
+
+/* ---- button-group ---- */
+
+.button-group {
+    margin-bottom: 20px;
+}
+
+.button-group:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.button-group .button {
+    float: left;
+    border-radius: 0;
+    margin-left: 0;
+    margin-right: 1px;
+}
+
+.button-group .button:first-child { /border-radius: 0.5em 0 0 0.5em; }
+.button-group .button:last-child { /border-radius: 0 0.5em 0.5em 0; }
+
+
+
+/* clear fix */
+.grid:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/*responsive starts*/
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .navbar-brand {
+        padding: 0 50px 25px 15px ;
+    }
+    #guidant h2 {
+        font-size: 30px;
+        color: crimson;
+    }
+    #guidant p{
+        font-size: 15px;
+        color: green;
+
+    }
+    #postérité {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Custom Responsive*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .navbar-brand {
+        /padding: 0 50px 25px 15px;
+    }
+
+    .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{
+        /background-color: #9b7ea4;
+
+    }
+
+    .navbar-inverse .navbar-toggle{
+        /border-color: #ffffff;
+    }
+
+    .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+        /border-color: transparent;
+    }
+    #guidant h2 {
+        /font-size: 30px;
+    }
+    #guidant p{
+        /font-size: 15px;
+        /line-height: 1.65em;
+    }
+    #testimonial h3{
+        /color: #775ba3;
+        /font-size: 25px;
+        /margin-bottom: 50px;
+    }
+
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .navbar-brand {
+        /padding: 0 30px 25px 15px;
+    }
+
+
+    h2{
+
+        /margin: 0 0 25px;
+        /font-size: 20px;
+    }
+    #guidant h2 {
+        /font-size: 40px;
+        /font-weight: bold;
+        /color: #775ba3;
+        /text-align: center;
+        /margin: 100px 0 50px;
+    }
+    #guidant p{
+        /font-size: 15px;
+        /line-height: 2.65em;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
